@@ -9,4 +9,13 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    <smartphone brand="Xiaomi" model="Redmi Note 12 Pro" releaseYear="2023">
+        <specs>
+            <screenSize unit="inch">6.67</screenSize>
+            <batteryCapacity unit="mAh">5000</batteryCapacity>
+            <storage unit="GB">256</storage>
+            <camera unit="MP">108</camera>
+        </specs>
+        <price currency="USD">510</price>
+    </smartphone>
 </smartphones>
