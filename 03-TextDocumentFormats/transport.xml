@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<transport>
-<transport brand="Kia" model="Picanto" releaseYear="2017">
-    <capacity>
-        <seats people="5">
-    <speed>
-        <speed maximum="159">
+<transports>
+    <transport brand="Kia" model="Picanto" releaseYear="2017">
+        <capacity>
+            <seats people="5"></seats>
+            <fuel tank="35"></fuel>
+        </capacity> 
+        <performance>
+            <speed maximum="159"></speed>
+            <acceleration max="17.2"></acceleration>
+        </performance>
+        <emission>
+            <emissions CO2="124"></emissions>
+            <petrol consumption="5.5"></petrol>
+        </emission>
+        <masses>
+            <curb weight="947"></curb>
+            <allowable total="1 460"></allowable>
+        </masses>
+    </transport>
+    <transport brand="Citroen" model="Picanto" releaseYear="2017">
+        <capacity>
+            <seats people="5"></seats>
+            <fuel tank="35"></fuel>
+        </capacity> 
+        <performance>
+            <speed maximum="159"></speed>
+            <acceleration max="17.2"></acceleration>
+        </performance>
+        <emission>
+            <emissions CO2="124"></emissions>
+            <petrol consumption="5.5"></petrol>
+        </emission>
+        <masses>
+            <curb weight="947"></curb>
+            <allowable total="1 460"></allowable>
+        </masses>
+        </transport>
+</transports>
+
     
