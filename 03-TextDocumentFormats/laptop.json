@@ -2,6 +2,9 @@
 "brand": "Dell",
 "model": "Inspiron 15",
 "year": 2023,
+"screenSize": "15,6",
 "isTouchscreen": false,
-"devices": ["touchpad","webcam"]
+"goodGraphics": true,
+"devices": ["touchpad","webcam"],
+"rawMemory": ["8GB","32GB"]
 }

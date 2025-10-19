@@ -53,5 +53,27 @@
             "Outerwear",
             "Accessories"
         ]
+    },
+    {
+        "name": "Prada",
+        "founded": 1913,
+        "headquarters": "Italy",
+        "employees": 14800,
+        "products": [
+            "Luxury Wear",
+            "Accessories",
+            "Footwear"
+        ] 
+    },
+    {
+        "name": "lululemon",
+        "founded": 1998,
+        "headquarters": "Vancouver, British Columbia, and incorporated in Delaware, United States",
+        "employees": 39000,
+        "products": [
+            "Athletic apparel",
+            "Footwear",
+            "Accessories"
+        ] 
     }
 ]

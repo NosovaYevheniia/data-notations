@@ -1,0 +1,13 @@
+[
+    {
+        "destination": "Warsaw",
+        "departure": "Krakow",
+        "departureTime": "19:44:00",
+        "arrivalTime": "22:39:00",
+        "travelTimeMinutes": "175",
+        "petsAvialaibility": true,
+        "classes": ["class1","class2"],
+        "class1Price": 105,
+        "class2Price": 78
+    }
+]
