@@ -23,7 +23,7 @@
             <perimeter>4 * side</perimeter>
         </formulas>
     </figure>
-    </figure>
+    <figure>
         <name>Cylinder</name>
         <type>2D</type>
         <properties>
