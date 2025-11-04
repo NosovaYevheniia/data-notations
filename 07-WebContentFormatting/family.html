@@ -6,6 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Information Form</title>
 </head>
+<style>
+    form {
+        margin: 4px 2px;
+    }
+    div {
+         margin-bottom: 5px;
+         font-family: Verdana;
+    }
+    .sub input[type="submit"]{
+        background-color: rgb(115, 182, 115);
+        color: rgb(15, 87, 15);
+        padding:10px 20px;
+    }
+    input[type=text]{
+        border: 2px solid green;
+        width: 100%;
+    }
+    input[type=number]{
+        border: 2px solid green;
+        width: 100%;
+    }
+    input[type=email]{
+        border: 2px solid green;
+        width: 100%;
+    }
+    input[type=date]{
+        border: 2px solid green;
+        width: 100%;
+    }
+    select[id=relationship]{
+        border: 2px solid green;
+        width: 100%;
+    }
+    textarea[id="notes"]{
+        border: 2px solid green;
+        width: 100%;
+    }
+</style>
 
 <body>
 
@@ -27,7 +65,7 @@
             <input type="email" id="email" name="email" required>
         </div>
 
-        <div>
+        <div class="relation">
             <label for="relationship">Relationship to You:</label>
             <select id="relationship" name="relationship" required>
                 <option value="">Select Relationship</option>
@@ -48,7 +86,7 @@
             <textarea id="notes" name="notes" rows="4"></textarea>
         </div>
 
-        <div>
+        <div class="sub">
             <input type="submit" value="Submit">
         </div>
     </form>
