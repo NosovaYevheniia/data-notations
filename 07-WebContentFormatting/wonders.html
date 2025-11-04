@@ -5,6 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Wonders of the Natural World</title>
+    <style>
+        body {font-family: Verdana;}
+        h1 {text-align: center;}
+
+        h2 {background-color: rgb(188, 206, 233);}
+
+        td, th {
+            padding: 2px 4px;
+            border: 4px solid rgb(56, 56, 119);
+        }
+
+        input[type=text]{width: 50%;}
+        input[type="email"]{width: 50%;}
+        select[id="destination"]{width: 50%}
+        input[type="date"]{width: 50%}
+        textarea[id="comments"]{width: 50%}
+        div {
+            padding: 2px;
+            margin: 6px;
+        }
+
+        input[type=text]:hover {background-color: rgb(174, 202, 238);}
+        input[type="email"]:hover {background-color: rgb(174, 202, 238);}
+        input[type="date"]:hover {background-color: rgb(174, 202, 238);}
+
+        a:link {
+            color: rgb(13, 6, 107);
+            text-decoration-style: wavy;
+        }
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gc {color: rgb(62, 109, 62);}
+        .gbr {color: rgb(124, 160, 180);}
+        .me {color: rgb(100, 99, 99)}
+    </style>
 </head>
 
 <body>
@@ -13,14 +51,14 @@
 
     <!-- Section 1: The Grand Canyon -->
     <h2>The Grand Canyon</h2>
-    <p>
+    <p class="gc">
         The Grand Canyon is one of the most remarkable natural formations in the world. It is located in the state of
         Arizona, USA, and stretches for over 277 miles. The canyon was carved over millions of years by the Colorado
         River. Its depth reaches over a mile, providing breathtaking views and revealing layers of geological history.
         More information can be found on <a href="https://en.wikipedia.org/wiki/Grand_Canyon"
             target="_blank">Wikipedia</a>.
     </p>
-    <p>
+    <p class="gc">
         The Grand Canyon offers visitors numerous activities such as hiking, rafting, and helicopter tours. It has been
         a UNESCO World Heritage Site since 1979. With its unique landscapes, the canyon attracts millions of visitors
         each year. The best time to visit is during the spring or fall when the weather is mild. The Grand Canyon is
@@ -29,14 +67,14 @@
 
     <!-- Section 2: The Great Barrier Reef -->
     <h2>The Great Barrier Reef</h2>
-    <p>
+    <p class="gbr">
         The Great Barrier Reef is the largest coral reef system in the world. It is located off the coast of Queensland,
         Australia, and is composed of over 2,900 individual reefs. The reef system is about 1,400 miles long and can be
         seen from space. This incredible ecosystem is home to thousands of marine species, including fish, coral,
         sharks, and sea turtles. You can learn more about it on <a
             href="https://en.wikipedia.org/wiki/Great_Barrier_Reef" target="_blank">Wikipedia</a>.
     </p>
-    <p>
+    <p class="gbr">
         The Great Barrier Reef is a popular destination for scuba divers and snorkelers. It was designated a UNESCO
         World Heritage Site in 1981. Unfortunately, the reef is currently facing threats from climate change and coral
         bleaching. Efforts are being made to protect and preserve this natural wonder. It remains a vital habitat for
@@ -45,14 +83,14 @@
 
     <!-- Section 3: Mount Everest -->
     <h2>Mount Everest</h2>
-    <p>
+    <p class="me">
         Mount Everest is the tallest mountain in the world, standing at 29,032 feet above sea level. It is located in
         the Himalayas, on the border between Nepal and the Tibet Autonomous Region of China. Everest has long been a
         symbol of human endurance and achievement. The first successful ascent to the summit was made by Sir Edmund
         Hillary and Tenzing Norgay in 1953. For more details, visit <a
             href="https://en.wikipedia.org/wiki/Mount_Everest" target="_blank">Wikipedia</a>.
     </p>
-    <p>
+    <p class="me">
         Climbing Mount Everest is a challenge that attracts hundreds of mountaineers every year. The journey is
         dangerous due to extreme cold, high winds, and the risk of avalanches. Despite these risks, the mountain remains
         a symbol of adventure and exploration. Everest is also of great cultural significance to the local Sherpa
